@@ -66,9 +66,10 @@ export default {
   &__letter {
     color: @white;
     line-height: 1.5;
+    display: inline-flex;
   }
 
-  display: flex;
+  display: inline-flex;
   justify-content: center;
   align-items: stretch;
 
