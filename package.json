@@ -1,6 +1,6 @@
 {
   "name": "@freedomsex/contact-icon",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Vue component, color contact icon with letter or image",
   "main": "src/index.vue",
   "scripts": {

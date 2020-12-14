@@ -54,6 +54,7 @@ export default {
   @size: 40px;
   width: @size;
   height: @size;
+  font-size: 26px;
 
   background-size: cover;
   background-position: center;
@@ -61,7 +62,6 @@ export default {
   background-color: @gray-light;
   border-radius: @size;
   overflow: hidden;
-    font-size: 26px;
 
   &__letter {
     color: @white;
@@ -79,9 +79,14 @@ export default {
   &.small-icon {
     @size: 28px;
     width: @size;
-    height: @size;
-
+    height: @size; 
     font-size: 19px;
+  }
+  &.big-icon {
+    @size: 50px;
+    width: @size;
+    height: @size; 
+    font-size: 28px;
   }
 }
 </style>
